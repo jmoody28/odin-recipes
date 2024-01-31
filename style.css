@@ -1,7 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap");
 
 body {
-  background-color: #fdfcac;
+  background-color: #fcfbe2;
+  margin: 0;
+}
+
+h1 {
+  padding-top: 100px;
+  margin-top: 0px;
 }
 
 .main-page {
@@ -20,7 +26,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  margin: 10px;
 }
 
 .front-img {
@@ -40,4 +46,74 @@ body {
   font-family: "Grape Nuts", cursive;
   font-size: 27px;
   /* color: rgb(65, 160, 65); */
+}
+
+/* header {
+  background-color: #fafffa;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 5px 0 black;
+} */
+#nav {
+  width: 100%;
+  height: 75px;
+  background-color: #fcfbe2;
+  position: fixed;
+  padding: auto;
+  box-shadow: 0 0 5px 0 black;
+  align-items: center;
+  font-family: "Grape Nuts";
+  font-size: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  padding: 25px;
+  display: block;
+  text-align: center;
+
+  border-right: 1px solid;
+}
+
+/* header * {
+  display: inline;
+} */
+
+/* header li {
+  margin: 15px;
+} */
+
+/* header li a {
+  color: black;
+  text-decoration: none;
+} */
+nav a:hover {
+  background-color: rgb(53, 122, 13);
+  transform: scale(1.08);
+  transition: all ease;
+  transition-duration: 0.18s;
+  border-left: 1px solid;
+  color: #fcfbe2;
+}
+
+.recipe-img {
+  width: 250px;
+  height: 375px;
 }
