@@ -7,6 +7,7 @@ body {
 
 h1 {
   padding-top: 100px;
+  text-align: center;
   margin-top: 0px;
 }
 
@@ -114,6 +115,70 @@ nav a:hover {
 }
 
 .recipe-img {
-  width: 250px;
+  width: 280px;
   height: 375px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  margin: 10px;
+}
+
+.info-container {
+  margin: 20px;
+  display: block;
+  flex-direction: column;
+  border: 2px solid rgb(53, 122, 13);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.food-text {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.left {
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 30px;
+  width: 420px;
+}
+
+.ingredients-container {
+  border: 2px solid rgb(53, 122, 13);
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.ingredients {
+  list-style: ;
+}
+
+.ingredients li {
+  margin: 15px;
+}
+
+.time {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.time li {
+  margin: 20px;
+}
+
+.steps-container {
+  display: block;
+  /* flex-direction: column; */
+  border: 2px solid rgb(53, 122, 13);
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.steps li {
+  margin: 20px;
 }
